@@ -15,5 +15,6 @@ namespace SharedModels
         public string? FunctionName { get; set; }
         public int SequenceNumber { get; set; }
         public bool AllowRead { get; set; }
+        public bool IsNecessary {  get; set; }
     }
 }

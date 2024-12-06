@@ -8,8 +8,8 @@ namespace SharedModels
 {
     public class Role
     {
-        public int Id { get; set; }
-        public int UserId { get; set; }
+        public long Id { get; set; }
+        public long UserId { get; set; }
         public long MenuItemId { get; set; }
         public bool AllowRead { get; set; }
         public bool AllowWrite { get; set; }
