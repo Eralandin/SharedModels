@@ -9,6 +9,7 @@ namespace SharedModels
         private string username;
         private string passwordHash;
         private string role;
+        public bool IsAdmin { get; set; }
         public string Username
         {
             get

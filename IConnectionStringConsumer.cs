@@ -9,6 +9,6 @@ namespace SharedModels
     public interface IConnectionStringConsumer
     {
         void SetConnectionString(string connectionString);
-        void SetOpenType(string openType, int? selectedId);
+        void SetOpenType(string openType, int? selectedId, bool isAdmin);
     }
 }
