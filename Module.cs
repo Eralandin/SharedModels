@@ -16,5 +16,6 @@ namespace SharedModels
         public int SequenceNumber { get; set; }
         public bool AllowRead { get; set; }
         public bool IsNecessary {  get; set; }
+        public bool IsMethodTakeable {  get; set; }
     }
 }
